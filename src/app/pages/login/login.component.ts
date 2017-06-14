@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { User } from '../../models/user';
-import { UserService } from '../../services/user.service';
+import { User } from 'ngx-admin-lte/models/user';
+import { UserService } from 'ngx-admin-lte/services/user.service';
 import { Router } from '@angular/router';
 
 @Component({

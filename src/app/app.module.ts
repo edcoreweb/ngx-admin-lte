@@ -7,14 +7,28 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 //modules
-import { NgxAdminLteModule } from './ngx-admin-lte/ngx-admin-lte.module'
+import { NgxAdminLteModule } from 'ngx-admin-lte/ngx-admin-lte.module';
+
+// les pages
+import { HomeComponent } from './pages/home/home.component';
+import { PageNumComponent } from './pages/page-num/page-num.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
+
+let pages = [
+    HomeComponent,
+    PageNumComponent,
+    LoginComponent,
+    RegisterComponent
+];
 
 // main bootstrap
 import { routing } from './app.routes';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ...pages
   ],
   imports: [
     BrowserModule,
