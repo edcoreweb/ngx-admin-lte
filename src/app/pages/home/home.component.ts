@@ -1,8 +1,8 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { BreadcrumbService } from 'ngx-admin-lte/services/breadcrumb.service';
-import { Message } from 'ngx-admin-lte/models/message';
-import { MessagesService } from 'ngx-admin-lte/services/messages.service';
-import { User } from 'ngx-admin-lte/models/user';
+import { BreadcrumbService } from 'ngx-admin-lte/src/services/breadcrumb.service';
+import { Message } from 'ngx-admin-lte/src/models/message';
+import { MessagesService } from 'ngx-admin-lte/src/services/messages.service';
+import { User } from 'ngx-admin-lte/src/models/user';
 
 @Component({
   selector: 'app-home',

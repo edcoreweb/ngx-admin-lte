@@ -7,7 +7,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 //modules
-import { NgxAdminLteModule } from 'ngx-admin-lte/ngx-admin-lte.module';
+import { NgxAdminLteModule } from 'ngx-admin-lte';
 
 // les pages
 import { HomeComponent } from './pages/home/home.component';

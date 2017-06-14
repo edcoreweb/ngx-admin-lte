@@ -1,7 +1,9 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CanActivateGuard } from 'ngx-admin-lte/services/guard.service';
-import { LayoutsAuthComponent } from 'ngx-admin-lte/layouts/auth/auth';
+
+//import { CanActivateGuard, LayoutsAuthComponent } from 'ngx-admin-lte';
+import { CanActivateGuard } from 'ngx-admin-lte/src/services/can-activate-guard.service';
+import { LayoutsAuthComponent } from 'ngx-admin-lte/src/layouts/auth/auth';
 
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
